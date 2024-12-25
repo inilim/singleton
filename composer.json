@@ -1,0 +1,26 @@
+{
+  "name": "inilim/singleton",
+  "description": "singleton",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Inilim\\Singleton\\": "src/"
+    },
+    "files": []
+  },
+  "authors": [
+    {
+      "name": "web community"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpstan/phpstan": "@stable",
+    "inilim/dump": "dev-main"
+  }
+}
